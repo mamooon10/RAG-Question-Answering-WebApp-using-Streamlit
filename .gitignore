@@ -1,0 +1,25 @@
+# Python / virtualenv
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+myenv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Streamlit & local config
+.streamlit/secrets.toml
+
+# Data / cache
+*.db
+*.sqlite
+*.log
+
+# Secrets – NEVER push these
+.env
